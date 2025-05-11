@@ -1,0 +1,30 @@
+# Ignore virtual environments
+venv/
+clean_env/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore large file types
+*.tar.gz
+*.zip
+*.mp4
+*.dll
+*.pyd
+*.exe
+*.log
+
+# Ignore model weights and datasets
+*.pt
+*.h5
+*.pb
+*.onnx
+
+# Ignore IDE folders
+.vscode/
+.idea/
