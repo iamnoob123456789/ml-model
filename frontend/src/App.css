@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.error {
+  color: red;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.student-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.student-card.attentive {
+  background-color: #e0ffe0;
+}
+
+.student-card.inattentive {
+  background-color: #ffe0e0;
+}
+
+.student-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.pie-chart {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+
+.results-container {
+  padding: 20px;
+}
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.student-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.student-card.attentive {
+  background-color: #e0ffe0;
+}
+.student-card.inattentive {
+  background-color: #ffe0e0;
+}
+.pie-chart {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}

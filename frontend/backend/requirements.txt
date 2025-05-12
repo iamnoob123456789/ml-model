@@ -1,0 +1,8 @@
+flask==2.0.1
+werkzeug==2.0.3
+flask-cors==3.0.10
+ultralytics==8.2.28
+opencv-python==4.5.5.64
+mediapipe==0.10.14  # Updated version
+supervision==0.18.0
+numpy==1.22.0
